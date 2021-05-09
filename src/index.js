@@ -1,4 +1,4 @@
 exports.mtx = require('./mtx');
-exports.DiGraphInt = require('./DiGraphInt');
+exports.DiGraph = require('./DiGraph');
 exports.pagerankPush = require('./pagerankPush');
 exports.pagerankPushAdjust = require('./pagerankPushAdjust');

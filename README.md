@@ -71,4 +71,9 @@ $ node ./ data/min-4SCC.mtx
 # [71 iters.] pagerankPushAdjust {dam=0.1,0.29,0.48,0.66,0.85, tol=1e-5}
 ```
 
+<br>
+<br>
+
+[![](https://i.imgur.com/XPKV828.jpg)](https://www.youtube.com/watch?v=J3sfsP9W048)
+
 [Deeper Inside PageRank]: https://www.slideshare.net/SubhajitSahu/deeper-inside-PageRank-notes

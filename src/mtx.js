@@ -1,4 +1,4 @@
-const DiGraphInt = require('./DiGraphInt');
+const DiGraph = require('./DiGraph');
 const file = require('./file');
 
 
@@ -35,7 +35,7 @@ function readTo(a, pth) {
 }
 
 function read(pth) {
-  var a = new DiGraphInt(); readTo(a, pth);
+  var a = new DiGraph(); readTo(a, pth);
   return a;
 }
 module.exports = {readTo, read};

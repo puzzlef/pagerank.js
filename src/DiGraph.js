@@ -3,7 +3,7 @@ const array = require('./array');
 
 
 
-class DiGraphInt {
+class DiGraph {
   #vex
   #vto
   #edata
@@ -99,4 +99,4 @@ class DiGraphInt {
     this.#M = 0;
   }
 }
-module.exports = DiGraphInt;
+module.exports = DiGraph;
