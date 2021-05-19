@@ -12,7 +12,8 @@ alpha. For example start initally with alpha = 0.5, let PageRank converge
 quickly, and then switch to alpha = 0.85 and run PageRank until it
 converges. Using a single step like this seems it might help reduce
 iterations. Unfortunately it doesnt. Trying with multiple steps tends to
-have even higher iteration count.
+have even higher iteration count. The input data used for this experiment
+is available at ["graphs"].
 
 
 ```bash
@@ -77,3 +78,4 @@ $ node ./ data/min-4SCC.mtx
 [![](https://i.imgur.com/XPKV828.jpg)](https://www.youtube.com/watch?v=J3sfsP9W048)
 
 [Deeper Inside PageRank]: https://www.slideshare.net/SubhajitSahu/deeper-inside-PageRank-notes
+["graphs"]: https://github.com/puzzlef/graphs
