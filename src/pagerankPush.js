@@ -1,14 +1,3 @@
-const array = require('./array');
-
-const OPTIONS = {
-  damping:       0.85,
-  tolerance:     1e-5,
-  maxIterations: 500
-};
-
-
-
-
 function pagerankPushLoop(x, r0, r1, N, p, E, L) {
   for (var l=0; l<L; l++) {
     array.fillAt(r1, x.vertices(), (1-p)/N);

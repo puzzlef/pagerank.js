@@ -1,18 +1,18 @@
-const DiGraph = require('./DiGraph');
-const file = require('./file');
+import {readFile} from "./_index";
+import DiGraph from "./DiGraph";
 
 
 
 
-function readTo(a, pth) {
-  var d  = file.read(pth);
+export function readMtxTo(a, pth) {
+  var d  = readFile(pth);
   var ls = d.split('\n'), l = 0;
 
   // read header
   while (true) {
     var ln = ls[l++];
-    if (!ln.startsWith('%')) break;
-    if (!ln.startsWith('%%')) continue;
+    if (!ln.startsWith("%")) break;
+    if (!ln.startsWith("%%")) continue;
     var [h0, h1, h2, h3, h4] = ln.split(/\s+/g);
   }
   if (h1!="matrix" || h2!="coordinate") return;
@@ -34,8 +34,7 @@ function readTo(a, pth) {
   }
 }
 
-function read(pth) {
-  var a = new DiGraph(); readTo(a, pth);
+export function readMtx(pth) {
+  var a = new DiGraph(); readMtxTo(a, pth);
   return a;
 }
-module.exports = {readTo, read};
