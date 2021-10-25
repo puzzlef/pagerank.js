@@ -111,7 +111,8 @@ $ node ./ data/min-4SCC.mtx
 <br>
 <br>
 
-[![](https://i.imgur.com/XPKV828.jpg)](https://www.youtube.com/watch?v=J3sfsP9W048)
+[![](https://i.imgur.com/XPKV828.jpg)](https://www.youtube.com/watch?v=J3sfsP9W048)\
+[![DOI](https://zenodo.org/badge/365472264.svg)](https://zenodo.org/badge/latestdoi/365472264)
 
 [Prof. Dip Sankar Banerjee]: https://sites.google.com/site/dipsankarban/
 [Prof. Kishore Kothapalli]: https://cstar.iiit.ac.in/~kkishore/

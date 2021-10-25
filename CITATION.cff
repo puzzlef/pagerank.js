@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Sahu
+    given-names: Subhajit
+    orcid: https://orcid.org/0000-0001-5140-6578
+title: "puzzlef/pagerank-adjust-damping-factor-stepwise.js: Experimenting PageRank improvement by adjusting damping factor (α) between iterations"
+version: 1.0.0
+doi: 10.5281/zenodo.5597002
+date-released: 2021-10-25
